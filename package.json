@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html",
     "start": "parcel index.html"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Surkovo/maps/issues"
   },
-  "homepage": "https://github.com/Surkovo/maps#readme"
+  "homepage": "https://github.com/Surkovo/maps#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
